@@ -1,0 +1,73 @@
+html {
+  /*? Default font-size 16px */
+  /* font-size: 20px; * default fontsize=20px */
+}
+
+h1 {
+  /*? Degistirilmedigi surece h1'in buyuklugu default font-size'ın 2 katidir. 16x2 = 32px*/
+  color: red;
+  /* font-size: 50px; */
+}
+p.first {
+  /*? p'nin size default font-size a eşittir.; */
+  font-size: 30px;
+}
+/************* UNITS *************/
+
+/**Mutlak ölçü birimleri px, mm, cm, m, inch */
+p.abs {
+  font-size: 20px;
+  font-size: 1cm;
+}
+
+p.percent {
+  font-size: 200%;
+  /*?16px*2 =32 px */
+}
+
+/*? EM ölçü biriminde bir html elemanının font-size 'ı parent'ın font-size'ına göre oranlanır. */
+.div1 {
+  /*? 1em = default font size' a eşittir. */
+  font-size: 1em;
+}
+
+.div2 {
+  font-size: 2em;
+  /*? Parent 'in (div1) font-size'nın 2 katı  */
+}
+
+.div3 {
+  font-size: 3em;
+  /*? Parent'ın (div2) font-size'nın 3 katı 32px*3 =96 px  olur.*/
+}
+
+/*!  REM olcu biriminde bir html elemaninin font size'i root elemaninin  font-size ina gore oranlanir. */
+
+.div4 {
+  font-size: 1rem; /*?  16px * 1 = 16px */
+}
+
+.div5 {
+  font-size: 2rem; /*?  16px * 2 = 32px */
+}
+
+.div6 {
+  font-size: 3rem; /*?  16px * 3 = 48px */
+}
+
+/************* TEXT-STYLE *************/
+
+p.text-style {
+  font-style: italic;
+  font-weight: 900;
+  /* font-weight: bold;
+  font-weight: bolder; */
+  font-variant: small-caps; /* Küçük harfleri büyük harfe dönüştürür. */
+}
+
+p.text-style .elit {
+  font-size: 2rem;
+  color: red;
+  text-decoration: line-through; /* Kelimenin üzerini çiz */
+  background-color: aquamarine;
+}
