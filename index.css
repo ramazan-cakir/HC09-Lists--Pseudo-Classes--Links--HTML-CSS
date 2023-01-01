@@ -10,20 +10,20 @@
   list-style-type: circle; /*? lover ile latin/roma/greek/alpha başlıklar stillendirilebilir  */
   list-style-position: inside;
   /* padding: 0;
-    margin-left: 20px; */
+      margin-left: 20px; */
   /* list-style-image: linear-gradient(
-    to left bottom,
-    red,
-    blue
-  ); ? İmleçlerin regi ayarlanabilir. Resim ve buton konulabilir. */
+      to left bottom,
+      red,
+      blue
+    ); ? İmleçlerin regi ayarlanabilir. Resim ve buton konulabilir. */
   list-style-image: url(house-solude.svg); /* Home simgesi internetten alınıp eklenebilir. */
 }
 
 /********** FONTAWESOME *************/
 
 /* https://fontawesome.com/icons/laptop-code?s=solid&f=classic
-
-https://cdnjs.com/ */
+  
+  https://cdnjs.com/ */
 
 .awesome {
   color: red;
@@ -64,9 +64,9 @@ ul.pseudo li:nth-child(even) {
 
 /*? Çift sıra sayılı olanları renklendir. alttan başlar*/
 /* ul.pseudo li:nth-child(odd) {
-    background-color: grey
-    color: white;
-  } */
+      background-color: grey
+      color: white;
+    } */
 
 ul.pseudo li:hover {
   cursor: pointer;
